@@ -1,0 +1,19 @@
+{
+  "name": "javascript_workshop",
+  "version": "1.0.0",
+  "description": "boo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieljuniper2025/javascript_workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieljuniper2025/javascript_workshop/issues"
+  },
+  "homepage": "https://github.com/danieljuniper2025/javascript_workshop#readme"
+}
