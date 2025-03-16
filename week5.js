@@ -67,23 +67,68 @@ everything in java script is an object.
 */
 
 let js = 'javascript'
-console.log(js.length)
+//console.log(js.length)
 
 let firstletter = js[4]
-console.log(firstletter)
+//console.log(firstletter)
 
 //using bracket notation to locate a letter or somthing 
 
 let lastindex = js.length -1
-console.log(lastindex)
-console.log(js[lastindex])
+//console.log(lastindex)
+//console.log(js[lastindex])
 
 
 //ToUpperCase()
-console.log(js.toUpperCase())
+//console.log(js.toUpperCase())
 
 //toLowerCase
-console.log(js.toLowerCase())
+//console.log(js.toLowerCase())
 
 //subsrt() : it takes two arguments the  string index and the number of char to slice 
-console.log(js.substr(4,6))
+//console.log(js.substr(4,6))
+
+//the split method 
+let potato ='SDV503 with javaScript'
+//console.log(potato.split())
+//console.log(myfullname.split(' '))
+
+//the trim() method 
+let name = 'juniper   daniel '
+//console.log(name.trim())
+
+
+//this line includes method 
+//console.log(potato.includes('days'))
+
+//the replace() method 
+
+//console.log(potato.replace('javaScript','TypeScript'))
+
+let anotherworld = 'TypeScript'
+//console.log(anotherworld.replace('type','java'))
+
+// the charAt() method 
+console.log(anotherworld.charAt(1))
+
+//the charcodeAt() method  
+console.log(anotherworld.charCodeAt(1))
+
+//the index of() method 
+console.log(anotherworld.indexOf('S')) // Type Script 
+
+//the lastindexof() method 
+console.log(anotherworld.lastIndexOf('JavaScript'))
+
+//the conctac() method 
+console.log(anotherworld.concat('JavaScript', 'c#','C++'))
+
+//the startswith() method 
+console.log(potato.startsWith('sdv503'))
+
+//the endswith() method 
+console.log(potato.endsWith('javascript'))
+let test = 'learning HTML. css and javascript in Web504 and learnign javascript in SDV503'
+
+//the search() method 
+console.log(test.search('learning'))
