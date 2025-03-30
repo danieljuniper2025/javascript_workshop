@@ -105,30 +105,51 @@ let name = 'juniper   daniel '
 
 //console.log(potato.replace('javaScript','TypeScript'))
 
-let anotherworld = 'TypeScript'
+//let anotherworld = 'TypeScript'
 //console.log(anotherworld.replace('type','java'))
 
 // the charAt() method 
-console.log(anotherworld.charAt(1))
+//console.log(anotherworld.charAt(1))
 
 //the charcodeAt() method  
-console.log(anotherworld.charCodeAt(1))
+//console.log(anotherworld.charCodeAt(1))
 
 //the index of() method 
-console.log(anotherworld.indexOf('S')) // Type Script 
+//console.log(anotherworld.indexOf('S')) // Type Script 
 
 //the lastindexof() method 
-console.log(anotherworld.lastIndexOf('JavaScript'))
+//console.log(anotherworld.lastIndexOf('JavaScript'))
 
 //the conctac() method 
-console.log(anotherworld.concat('JavaScript', 'c#','C++'))
+//console.log(anotherworld.concat('JavaScript', 'c#','C++'))
 
 //the startswith() method 
-console.log(potato.startsWith('sdv503'))
+//console.log(potato.startsWith('sdv503'))
 
 //the endswith() method 
-console.log(potato.endsWith('javascript'))
-let test = 'learning HTML. css and javascript in Web504 and learnign javascript in SDV503'
+//console.log(potato.endsWith('javascript'))
+//let test = 'learning HTML. css and javascript in Web504 and learnign javascript in SDV503'
 
 //the search() method 
-console.log(test.search('learning'))
+//console.log(test.search('learning'))
+
+//the search() method 
+// console.log(test.search('learning'))
+
+//ANCHOR - javaScript Arithmetich operator 
+
+let numOne = 4 
+let numTwo =3 
+let sum = numOne + numTwo 
+let diff = numOne - numTwo
+let mult = numOne * numTwo 
+let div = numOne % numTwo 
+
+console.log(sum , diff, mult, div)
+
+//logical  operators 
+
+const checkAND = 4 > 3 && 10 > 5
+console.log(checkAND)
+const checkOR = 4 > 3 || 10 > 5 
+console.log(checkOR)
