@@ -166,13 +166,60 @@ console.log('manually reversed: ',manualReverse)
 const reversecompines = [...itcompanies].reverse()
 console.log('reversed: ', reversecompines)
 
-//const iterable 
-const str = 'hello'
-const letters = [...str]
-console.log(letters)
+// //const iterable 
+// const str = 'hello'
+// const letters = [...str]
+// console.log(letters)
 
-//merge arrays 
-const a = [1, 2]
-const b = [3, 4]
-const merge = [...a, ...b]
-console.log(merged)
+// //merge arrays 
+// const a = [1, 2]
+// const b = [3, 4]
+// const merge = [...a, ...b]
+// console.log(merged)
+
+// slice out the frist 3 companies 
+console.log('first 3 : ', itcompanies.slice(0 , 3))
+
+//slice the out last three companies 
+console.log('last 3 : ', itcompanies.slice(4, 7))
+
+let middle = Math.floor(itcompanies.length/2)
+console.log("middle", itcompanies.slice(middle, middle + 1))
+
+//remove first companie 
+// declaing this new variable witch is the same as the orginial arry 
+let removeFirstCompany = [...itcompanies]
+//using this were gonna shift the new varrible to remove the first Itcompany 
+removeFirstCompany.shift()
+// will print the results 
+console.log('after removing first: ' ,removeFirstCompany)
+
+let indexToRemove = Math.floor(itcompanies.length/2)
+let removeMiddleCompany = [...itcompanies]
+removeMiddleCompany.splice(indexToRemove, 1)
+console.log("indexToRemove",removeMiddleCompany)
+
+// remove last company 
+let removelastcomany = [...itcompanies]
+removelastcomany.pop()
+console.log(removelastcomany)
+
+// create a function that takes two numbers as arguments and returns there sum 
+
+//add two numbers(3, 2 ) -> 5
+
+function convert(minutes){
+   if(typeof minutes !=='number'){
+    return 'invaledtype'
+   }
+    return minutes *60 
+}
+console.log(convert(256))
+
+function years(years){
+    if(typeof years !=='number'){
+     return 'invaledtype'
+    }
+     return years *365
+ }
+ console.log(years(90))
